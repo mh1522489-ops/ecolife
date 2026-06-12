@@ -1,5 +1,4 @@
-
-readme_content = """# 🌿 Eco Life — حلول الطاقة المتجددة المتكاملة
+# 🌿 Eco Life — حلول الطاقة المتجددة المتكاملة
 
 <div align="center">
 
@@ -111,8 +110,6 @@ ecolife/
 │
 ├── 📄 index.html          # الصفحة الرئيسية
 ├── 📄 home.css            # ملف الأنماط الرئيسي
-├── 📄 About us.html       # صفحة من نحن
-├── 📄 About us.css        # أنماط صفحة من نحن
 │
 ├── 📂 assets/             # المجلدات الثابتة
 │   ├── logo.svg
@@ -231,13 +228,4 @@ Copyright (c) 2026 Eco Life
   <p style="color: #74c69d;">🌍 نبني مستقبلاً أفضل مع Eco Life 🌿</p>
   <p><sub>صنع بـ ❤️ في مصر</sub></p>
 </div>
-"""
 
-# Save to output file
-output_path = "/mnt/agents/output/README.md"
-with open(output_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print(f"✅ README.md تم إنشاؤه بنجاح!")
-print(f"📁 المسار: {output_path}")
-print(f"📊 عدد الأحرف: {len(readme_content)}")
